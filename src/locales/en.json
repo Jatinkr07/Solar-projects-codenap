@@ -1,0 +1,170 @@
+{
+  "Home": "Home",
+  "About us": "About us",
+  "Gallery": "Gallery",
+  "Products": "Products",
+  "Services": "Services",
+  "Contact us": "Contact us",
+  "MainTitle": "Advanced Solutions for Smart Monitoring and Connectivity.",
+  "MainDescription": "Empowering businesses with cutting-edge IoT devices and semiconductor solutions. Enhance efficiency, reduce costs, and drive smarter operations.",
+  "ExploreProducts": "Explore Products",
+  "About": "About us",
+  "AboutDescription": "We specialize in delivering cutting-edge IoT devices and semiconductor equipment that help businesses enhance their operations and maximize efficiency.",
+  "ReadMore": "Read more",
+  "AdvancedBatteryTechnology": "Advanced Battery Technology",
+  "AdvancedBatteryDescription": "Our advanced battery systems are designed to offer long life cycles and top-tier energy efficiency, ensuring optimal performance.",
+  "IntelligenceChargingSolutions": "Intelligence Charging Solutions",
+  "IntelligenceChargingDescription": "Smart charging systems dynamically adapt, maximizing uptime and optimizing energy use efficiently.",
+  "EnergyEfficientCharging": "Energy-Efficient Charging Solutions",
+  "EnergyEfficientDescription": "Our energy-efficient solutions minimize power waste and prolong battery life for maximum device longevity.",
+  "SecureIoTDevices": "Secure IoT Devices",
+  "SecureIoTDescription": "Our IoT devices ensure security while maintaining high performance and data integrity for business needs.",
+  "our-products": "Our Products",
+  "See-more": "See More...",
+  "Explore-related-products": "Explore  Products",
+  "Company-services" : "Choose us as your partner in progress for our commitment to delivering top-tier technology that propels your business forward. Our high-performance products are designed with precision and backed byunparalleled expertise, ensuring you have the most reliable and advancedsolutions available.",
+  "Leading":"Leading the Future Together!",
+  "our-innovation": "Your Power, Our Innovation",
+  "choose-us":"Why Choose ABCD",
+  "banner": {
+    "title": "Explore Our Solar Lighting System",
+    "description": "Choose us as your partner in progress for our commitment to delivering top-tier technology that propels your business forward.",
+    "explore": "Explore",
+    "commitment": "Join the IoT Revolution",
+    "commitmentDescription": "Our Commitment to Excellence",
+    "exploreProducts": "Explore Products"
+  },
+  
+    "footer": {
+      "newsletter": "Signup for our newsletter to get updates,",
+      "newsletterDetails": "news, insights, or promotions.",
+      "signUp": "Sign Up",
+      "followUs": "Follow Us",
+      "logo": "Logo",
+      "slogan": "We Work For Excellence",
+      "products": "Products",
+      "productList": [
+        "Solar Lightning System",
+        "AQI Monitoring Device",
+        "IoT Gateway"
+      ],
+      "links": "Links",
+      "linkList": [
+        "Home",
+        "Products",
+        "Support",
+        "Gallery",
+        "Contact"
+      ],
+      "getInTouch": "Get in touch",
+      "phone": "+91-8588878612, +918588878600",
+      "email": "sales@abcgetakej.com",
+      "address": "Faridabad Office: C/o- & Work, Plot No. 5B, Sector 15-A, First Floor, Crown Plaza Mall, Faridabad.-121007",
+      "workingHours": "9:00 AM - 5:30 PM (Mon - Sat)",
+      "terms": "Terms & Conditions",
+      "copyright": "© 2024 All rights reserved."
+    },
+    "about": {
+      "title": "About Us",
+      "sectionTitle": "About Us",
+      "description": "Every business has an origin story worth telling...",
+      "ourVision": {
+        "title": "Our Vision",
+        "description": "Every business has an origin story worth telling..."
+      },
+      "ourMission": {
+        "title": "Our Mission",
+        "description": "Every business has an origin story worth telling..."
+      }
+    },
+    "allproducts": "All Products",
+    "Ourservices":"Our Services",
+    "Servicedescription": "As a leading innovator in the renewable energy industry, [Company Name] specializes in the design, manufacturing, and distribution of high-efficiency solar panels for residential, commercial, and industrial applications.",
+    "shortDesc":" As providers of innovative business solutions, we employ cutting-edge technology and industry-leading practices.",
+    "whychoose": "Why Choose",
+    "Ltd": "ABC Pvt Ltd",
+    "serviceExplore":"Explore innovation in hardware with ABC Pvt Ltd",
+    "serviceDesc": "Innovation in hardware is a driving force behind advancements in technology and industry.",
+    "head1": "Creating extensive data storage",
+    "head2":"Tailored hardware design",
+    "head3":"Prototyping for experimentation",
+    "head4":"Compliance and quality assurance",
+    "head5":"Partners in success",
+    "head6":"Driving industry advancements",
+    "headDesc": " We stay at the forefront of hardware innovation, leveraging the latest technologies and best practices",
+   "banner1":"Strong analytical abilities",
+   "banner2":"Critical thinking",
+   "banner3":"Problem solving",
+   "faq": "FAQ",
+  "faq_items": [
+    {
+      "question": "What is the hardware development process?",
+      "answer": "The hardware development process involves several stages including concept, design, prototyping, testing, and production."
+    },
+    {
+      "question": "Why is hardware development crucial?",
+      "answer": "Hardware development is crucial as it forms the foundation of any electronic device and affects overall performance."
+    },
+    {
+      "question": "Can hardware development be Agile?",
+      "answer": "Yes, hardware development can adopt Agile methodologies to enhance flexibility and responsiveness."
+    },
+    {
+      "question": "How do you develop a new hardware product?",
+      "answer": "Developing a new hardware product typically involves market research, defining specifications, and iterative testing."
+    },
+    {
+      "question": "What is an example of hardware as a service?",
+      "answer": "An example of hardware as a service is providing servers and infrastructure on a subscription basis."
+    },
+    {
+      "question": "Does InTechHouse provide hardware maintenance and support services?",
+      "answer": "Yes, InTechHouse offers comprehensive hardware maintenance and support services."
+    },
+    {
+      "question": "Are security solutions in hardware important?",
+      "answer": "Absolutely, hardware security solutions are essential to protect against physical and digital threats."
+    },
+    {
+      "question": "What are the main hardware needs in the 21st century?",
+      "answer": "The main hardware needs include faster processors, improved energy efficiency, and enhanced connectivity."
+    }
+  ],
+  "topHead": "You have an idea but do not have",
+  "topDesc":"You have an idea but do not have the capacity or capabilities. We offer our experience, resources, and facilities to make it possible.",
+  "tag": "hardware engineer values",
+  "title1":"Strong analytical abilities" ,
+  "title2":"Critical thinking" ,
+  "title3":"Problem solving" ,
+  "title4":"Effective Communication",
+  "Desc1": "Our developers can evaluate digital circuits in any hardware using computer programming tools to determine a better and more functional design.",
+  "Desc2": "Our developers can evaluate digital circuits in any hardware using computer programming tools to determine a better and more functional design.",
+  "Desc3": "Our developers can evaluate digital circuits in any hardware using computer programming tools to determine a better and more functional design.",
+  "Desc4": "Our developers can evaluate digital circuits in any hardware using computer programming tools to determine a better and more functional design.",
+  "Use_service": "Use this service if...",
+  "contact": {
+    "title": "Contact Us",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "reason": "Reason",
+    "solarPanels": "Solar Panels",
+    "iotGateway": "IOT Gateway",
+    "aqiMonitoringDevice": "AQI Monitoring Device",
+    "other": "Other",
+    "send": "Send message",
+    "sending": "Sending...",
+    "contactDetails": "Contact Details",
+    "mailUs": "Mail us",
+    "callUs": "Call us",
+    "findUs": "Find us",
+    "callHours": "Call our team Mon - Fri from 10am to 5pm.",
+    "questions": "Any Questions? Let’s Talk!",
+    "comeMeetUs": "Come and meet us at our office location."
+  }
+
+  }
+  
+

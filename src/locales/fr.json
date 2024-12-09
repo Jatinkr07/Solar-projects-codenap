@@ -1,0 +1,168 @@
+{
+  "Home": "Accueil",
+  "About us": "À propos de nous",
+  "Gallery": "Galerie",
+  "Products": "Produits",
+  "Services": "Services",
+  "Contact us": "Contactez-nous",
+  "MainTitle": "Solutions avancées pour la surveillance et la connectivité intelligentes.",
+  "MainDescription": "Autonomiser les entreprises avec des dispositifs IoT de pointe et des solutions de semi-conducteurs. Améliorez l'efficacité, réduisez les coûts et stimulez des opérations plus intelligentes.",
+  "ExploreProducts": "Explorer les produits",
+  "About": "À propos de nous",
+  "AboutDescription": "Nous sommes spécialisés dans la livraison de dispositifs IoT de pointe et d'équipements semi-conducteurs qui aident les entreprises à améliorer leurs opérations et à maximiser leur efficacité.",
+  "ReadMore": "Lire la suite",
+  "AdvancedBatteryTechnology": "Technologie de batterie avancée",
+  "AdvancedBatteryDescription": "Nos systèmes de batterie avancés sont conçus pour offrir de longs cycles de vie et une efficacité énergétique de premier ordre, garantissant des performances optimales.",
+  "IntelligenceChargingSolutions": "Solutions de charge intelligentes",
+  "IntelligenceChargingDescription": "Les systèmes de charge intelligents s'adaptent dynamiquement, maximisant le temps de disponibilité et optimisant l'utilisation de l'énergie efficacement.",
+  "EnergyEfficientCharging": "Solutions de charge éconergétiques",
+  "EnergyEfficientDescription": "Nos solutions éconergétiques minimisent le gaspillage d'énergie et prolongent la durée de vie de la batterie pour une longévité maximale de l'appareil.",
+  "SecureIoTDevices": "Dispositifs IoT sécurisés",
+  "SecureIoTDescription": "Nos dispositifs IoT garantissent la sécurité tout en maintenant de hautes performances et l'intégrité des données pour les besoins des entreprises.",
+  "our-products": "Nos produits",
+  "See-more": "Mer Plus",
+  "Explore-related-products": "DÉCOUVRIR LES PRODUITS CONNEXES",
+  "Company-services": "Choisissez-nous comme partenaire en cours pour notre engagement à fournir une technologie de pointe qui propulse votre entreprise vers l’avant. Nos produits haute performance sont conçus avec précision et soutenus par une expertise inégalée, vous assurant les solutions les plus fiables et les plus avancées disponibles.",
+  "Leading":"Ensemble, menons l’avenir !",
+  "our-innovation":"Votre puissance, notre innovation",
+  "choose-us":"Pourquoi choisir ABCD",
+  
+
+  "banner": {
+    "title": "Explorez notre système d'éclairage solaire",
+    "description": "Choisissez-nous comme votre partenaire dans le progrès pour notre engagement à fournir une technologie de pointe qui propulse votre entreprise.",
+    "explore": "Explorer",
+    "commitment": "Rejoignez la révolution IoT",
+    "commitmentDescription": "Notre engagement envers l'excellence",
+    "exploreProducts": "Explorer les produits"
+  },
+    "footer": {
+      "newsletter": "Inscrivez-vous à notre newsletter pour obtenir des mises à jour,",
+      "newsletterDetails": "nouvelles, insights ou promotions.",
+      "signUp": "S'inscrire",
+      "followUs": "Suivez-nous",
+      "logo": "Logo",
+      "slogan": "Nous travaillons pour l'excellence",
+      "products": "Produits",
+      "productList": [
+        "Système d'éclairage solaire",
+        "Dispositif de surveillance AQI",
+        "Passerelle IoT"
+      ],
+      "links": "Liens",
+      "linkList": [
+        "Accueil",
+        "Produits",
+        "Support",
+        "Galerie",
+        "Contact"
+      ],
+      "getInTouch": "Entrer en contact",
+      "phone": "+91-8588878612, +918588878600",
+      "email": "sales@abcgetakej.com",
+      "address": "Bureau de Faridabad : C/o- & Work, Plot No. 5B, Sector 15-A, Premier étage, Crown Plaza Mall, Faridabad.-121007",
+      "workingHours": "9h00 - 17h30 (lun - sam)",
+      "terms": "Conditions d'utilisation",
+      "copyright": "© 2024 Tous droits réservés."
+    },
+    "about": {
+      "title": "À propos de nous",
+      "sectionTitle": "À propos de nous",
+      "description": "Chaque entreprise a une histoire d'origine qui vaut la peine d'être racontée...",
+      "ourVision": {
+        "title": "Notre Vision",
+        "description": "Chaque entreprise a une histoire d'origine qui vaut la peine d'être racontée..."
+      },
+      "ourMission": {
+        "title": "Notre Mission",
+        "description": "Chaque entreprise a une histoire d'origine qui vaut la peine d'être racontée..."
+      }
+    },
+    "allproducts": "Tous les produits",
+    "Ourservices": "Nos prestations",
+    "Servicedescription":"En tant qu'innovateur de premier plan dans le secteur des énergies renouvelables, [Société Nom] se spécialise dans la conception, la fabrication et la distribution de panneaux solaires à haut rendement pour les usages résidentiels, commerciaux et applications industrielles.",
+    "shortDesc": "En tant que fournisseurs de solutions commerciales innovantes, nous employons technologie de pointe et pratiques de pointe de l’industrie.",
+    "whychoose": "Pourquoi choisir",
+    "Ltd": "ABC Pvt Ltd",
+    "serviceExplore": "Explorez l'innovation en matière de matériel avec ABC Pvt Ltd",
+    "serviceDesc": "L’innovation matérielle est un moteur des progrès dans technologie et industrie.",
+    "head1": "Création d'un stockage de données étendu",
+    "head2":"Conception matérielle sur mesure",
+    "head3":"Prototypage pour l'expérimentation",
+    "head4":"Conformité et assurance qualité",
+    "head5":"Partenaires du succès",
+    "head6":"Favoriser les progrès de l’industrie",
+    "headDesc": "Nous restons à la pointe de l'innovation matérielle, en tirant parti de dernières technologies et meilleures pratiques.",
+    "banner1":"Fortes capacités analytiques",
+    "banner2":"Pensée critique",
+    "banner3":"Problem solving",
+    "faq": "FAQ",
+  "faq_items": [
+    {
+      "question": "Quel est le processus de développement matériel ?",
+      "answer": "Le processus de développement matériel implique plusieurs étapes, y compris le concept, la conception, le prototypage, les tests et la production."
+    },
+    {
+      "question": "Pourquoi le développement matériel est-il crucial ?",
+      "answer": "Le développement matériel est crucial car il constitue la base de tout appareil électronique et affecte les performances globales."
+    },
+    {
+      "question": "Le développement matériel peut-il être Agile ?",
+      "answer": "Oui, le développement matériel peut adopter des méthodologies Agile pour améliorer la flexibilité et la réactivité."
+    },
+    {
+      "question": "Comment développez-vous un nouveau produit matériel ?",
+      "answer": "Le développement d'un nouveau produit matériel implique généralement des recherches de marché, la définition des spécifications et des tests itératifs."
+    },
+    {
+      "question": "Quel est un exemple de matériel en tant que service ?",
+      "answer": "Un exemple de matériel en tant que service consiste à fournir des serveurs et des infrastructures sur une base d'abonnement."
+    },
+    {
+      "question": "InTechHouse fournit-elle des services de maintenance et de support matériel ?",
+      "answer": "Oui, InTechHouse propose des services complets de maintenance et de support matériel."
+    },
+    {
+      "question": "Les solutions de sécurité matérielles sont-elles importantes ?",
+      "answer": "Absolument, les solutions de sécurité matérielles sont essentielles pour se protéger contre les menaces physiques et numériques."
+    },
+    {
+      "question": "Quels sont les principaux besoins matériels au XXIe siècle ?",
+      "answer": "Les principaux besoins matériels comprennent des processeurs plus rapides, une efficacité énergétique améliorée et une connectivité améliorée."
+    }
+  ],
+  "topHead": "Vous avez une idée mais vous n'en avez pas",
+  "topDesc": "Vous avez une idée mais n’en avez pas la capacité ou les capacités. Nous offrons notre expérience, nos ressources et no installations pour y parvenir possible.",
+  "tag": "valeurs de l'ingénieur matériel",
+  "title1":"Fortes capacités analytiques" ,
+  "title2":"Pensée critique" ,
+  "title3":"Résolution de problèmes" ,
+  "title4":"Communication efficace",
+  "Desc1": "Nos développeurs peuvent évaluer les circuits numériques de n'importe quel matériel à l'aide d'outils de programmation informatique pour déterminer une conception meilleure et plus fonctionnelle.",
+  "Desc2": "Nos développeurs peuvent évaluer les circuits numériques de n'importe quel matériel à l'aide d'outils de programmation informatique pour déterminer une conception meilleure et plus fonctionnelle.",
+  "Desc3": "Nos développeurs peuvent évaluer les circuits numériques de n'importe quel matériel à l'aide d'outils de programmation informatique pour déterminer une conception meilleure et plus fonctionnelle.",
+  "Desc4": "Nos développeurs peuvent évaluer les circuits numériques de n'importe quel matériel à l'aide d'outils de programmation informatique pour déterminer une conception meilleure et plus fonctionnelle.",
+  "Use_service": "Utilisez ce service si...",
+  "contact": {
+    "title": "Contactez-nous",
+    "firstName": "Prénom",
+    "lastName": "Nom de famille",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "message": "Message",
+    "reason": "Raison",
+    "solarPanels": "Panneaux solaires",
+    "iotGateway": "Passerelle IOT",
+    "aqiMonitoringDevice": "Dispositif de surveillance de la qualité de l'air",
+    "other": "Autre",
+    "send": "Envoyer le message",
+    "sending": "Envoi...",
+    "contactDetails": "Coordonnées",
+    "mailUs": "Envoyez-nous un courriel",
+    "callUs": "Appelez-nous",
+    "findUs": "Trouvez-nous",
+    "callHours": "Appelez notre équipe du lundi au vendredi de 10h à 17h.",
+    "questions": "Des questions ? Parlons-en !",
+    "comeMeetUs": "Venez nous rencontrer à notre bureau."
+  }
+}

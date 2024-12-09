@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+
+menu {
+list-style: disc;
+}
+
+ol {
+  list-style: decimal;
+}
+ul {
+  list-style: disc;
+}
+
+@media (max-width: 640px) {
+  .header-image {
+    max-width: 250px; 
+    max-height: 150px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+  .header-image {
+    max-width: 300px;
+    max-height: 200px; 
+  }
+}
+
+
+
+
+
