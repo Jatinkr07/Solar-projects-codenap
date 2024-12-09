@@ -55,6 +55,32 @@ const ManageProducts = () => {
   const itemsPerPage = 10;
   const [imagesToRemove, setImagesToRemove] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("");
+  const [imageError, setImageError] = useState("");
+
+  const handleImageChange = (e) => {
+    const files = Array.from(e.target.files);
+    const maxSize = 2 * 1024 * 1024; // 2MB limit
+    let validFiles = [];
+    let error = "";
+
+    files.forEach((file) => {
+      if (file.size > maxSize) {
+        error = "Image size limit is 2MB only.";
+      } else {
+        validFiles.push(file);
+      }
+    });
+
+    if (error) {
+      setImageError(error);
+    } else {
+      setImageError("");
+      setFormData((prev) => ({
+        ...prev,
+        images: [...prev.images, ...validFiles],
+      }));
+    }
+  };
 
   const fetchProducts = async () => {
     try {
@@ -80,18 +106,13 @@ const ManageProducts = () => {
   }, []);
 
   // const handleImageChange = (e) => {
-  //   setFormData({ ...formData, images: Array.from(e.target.files) });
-  // };
-  const handleImageChange = (e) => {
-    const files = Array.from(e.target.files);
-    // setFormData({ ...formData, images: files });
-    // setFormData((prev) => ({ ...prev, images: [...prev.images, ...files] }));
+  //   const files = Array.from(e.target.files);
 
-    setFormData((prev) => ({
-      ...prev,
-      images: [...prev.images, ...files],
-    }));
-  };
+  //   setFormData((prev) => ({
+  //     ...prev,
+  //     images: [...prev.images, ...files],
+  //   }));
+  // };
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -101,34 +122,6 @@ const ManageProducts = () => {
       [name]: value,
     }));
   };
-
-  // const handleEditorChange = (name, editor) => {
-  //   console.log(name, editor.getData(), "NAME");
-  //   setFormData((prevData) => {
-  //     const updatedData = {
-  //       ...prevData,
-  //       [name]: {
-  //         ...prevData?.[name],
-  //         [lang]: editor.getData(),
-  //       },
-  //     };
-  //     console.log(updatedData, "UPDATED");
-  //     return updatedData;
-  //   });
-  // };
-
-  // const handleEditorChange = (name, editor) => {
-  //   setFormData((prevData) => {
-  //     const updatedData = {
-  //       ...prevData,
-  //       [name]: {
-  //         ...prevData[name],
-  //         [lang]: editor.getData(),
-  //       },
-  //     };
-  //     return updatedData;
-  //   });
-  // };
 
   const handleEditorChange = (field, editor) => {
     const value = editor.getData() || "";
@@ -186,35 +179,6 @@ const ManageProducts = () => {
     imagesToRemove.forEach((image) => {
       data.append("imagesToRemove", image);
     });
-
-    // useEffect(() => {
-    //   setFormData((prevFormData) => {
-    //     console.log(prevFormData, "LANG DATA");
-    //     return {
-    //       ...prevFormData,
-    //       title: {
-    //         en: prevFormData.title.en,
-    //         fr: prevFormData.title.fr,
-    //       },
-    //       description: {
-    //         en: prevFormData.description[lang],
-    //         fr: prevFormData.description[lang],
-    //       },
-    //       features: {
-    //         en: prevFormData.features.en,
-    //         fr: prevFormData.features.fr,
-    //       },
-    //       technicalDetails: {
-    //         en: prevFormData.technicalDetails.en,
-    //         fr: prevFormData.technicalDetails.fr,
-    //       },
-    //       specifications: {
-    //         en: prevFormData.specifications.en,
-    //         fr: prevFormData.specifications.fr,
-    //       },
-    //     };
-    //   });
-    // }, [lang]);
 
     try {
       if (isEditing) {
@@ -579,15 +543,7 @@ const ManageProducts = () => {
                   />
                 )}
               </div>
-              {/* <input
-                className="block w-full p-2 mb-4 border rounded-lg shadow-md"
-                type="number"
-                name="price"
-                placeholder="Price"
-                value={formData.price}
-                onChange={handleInputChange}
-                required
-              /> */}
+
               <select
                 name="category"
                 className="block w-full p-2 mb-4 border rounded-lg shadow-md"
@@ -608,6 +564,9 @@ const ManageProducts = () => {
                 className="block w-full p-2 mb-4 border rounded-lg shadow-md"
                 onChange={handleImageChange}
               />
+              {imageError && (
+                <span className="text-sm text-red-500">{imageError}</span>
+              )}
               <div className="mb-4">
                 <h3 className="mb-2 text-lg font-medium">Current Images:</h3>
                 <div className="flex flex-wrap">
@@ -684,7 +643,7 @@ const ManageProducts = () => {
               <td className="px-4 py-2 border">
                 {product.images.length > 0 && (
                   <img
-                    src={`http://localhost:4001${product.images[0]}`}
+                    src={`${API_URL}${product.images[0]}`}
                     alt={product.title.en}
                     className="object-cover w-20 h-20"
                     loading="eager"
